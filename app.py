@@ -4,6 +4,14 @@ import tensorflow as tf
 import keras
 from PIL import Image
 
+
+st.set_page_config(
+    page_title="Rubbish Classifier",  # This shows up in the browser tab
+    page_icon="♻️",                   # Optional: Emoji or URL to an icon
+    layout="centered",                # Optional: 'centered' or 'wide'
+    initial_sidebar_state="auto"     # Optional: 'auto', 'expanded', 'collapsed'
+)
+
 # ---------------------------
 # Placeholder variables and model loading
 # ---------------------------
